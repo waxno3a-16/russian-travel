@@ -1,7 +1,6 @@
 .lead__caption {
   margin: 8px 0 0;
   min-width: 158px;
-  min-height: 14px;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
@@ -10,3 +9,20 @@
   align-self: flex-start;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    margin: 0 48px;
+  } 
+}
+
+ @media (min-width: 321px) and (max-width: 767px) {
+  .lead__caption {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    margin: 0 16px;
+  }
+}

@@ -1,5 +1,5 @@
 .lead {
-  margin: 0 11.5%;
+  margin: 0 auto;
   max-width: 984px;
   max-height: 1005px;
   display: flex;
@@ -8,19 +8,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .lead__image {
-    max-width: 928px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .lead__image {
-      max-width: 768px;
-    }
-}
-
-@media (max-width: 767px) {
-    .lead__image {
-      max-width: 320px;
-    }
+  .lead {
+    margin: 0 48px;
+  } 
 }
