@@ -6,3 +6,8 @@
   font-size: 18px;
   line-height: 122%;
 }
+
+.place__link:hover {
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
