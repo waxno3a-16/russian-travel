@@ -8,10 +8,10 @@
 </head>
 <body class="page">
   <header class="header">
-    <a href="#"><img class="header__logo" src="images/header-logo.svg" alt="Логотип"></img></a>
+    <a href="#"><img class="header__logo" src="images/header-logo.svg" alt="Логотип"></a>
     <ul class="header__lang">
-      <li><a href="#" class="header__lang-link">Ru</a></li>
-      <li><a href="#" class="header__lang-link">En</a></li>
+      <li><a class="header__lang-link" href="#">Ru</a></li>
+      <li><a class="header__lang-link" href="#">En</a></li>
     </ul>
   </header>
   <section class="lead">
@@ -32,7 +32,7 @@
       <li>Аэропортов <span class="intro__list_span-accent">241</span></li>
     </ul>
   </section>
-  <section class="photo-grid">
+  <div class="photo-grid">
     <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Окно поезда">
     <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Горы">
     <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Собака на стоге сена">
@@ -45,8 +45,8 @@
     <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Вулкан">
     <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Зима">
     <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Сопки в тумане">
-  </section>
-  <section class="places-info">
+  </div>
+  <div class="places-info">
     <article class="place">
       <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
@@ -106,13 +106,22 @@
         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </div>
     </article>
-  </section>
+  </div>
   <section class="cover">
     <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+      <div class="cover__background"></div>
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      <div class="cover__background"></div>
     </a>
-    <div class="cover__overlay"></div>
   </section>
+  <footer class="footer">
+    <ul class="footer__menu">
+      <li><a href="https://yandex.ru/maps" class="footer__menu-link" target="_blank">Карты</a></li>
+      <li><a href="https://yandex.ru/pogoda" class="footer__menu-link" target="_blank">Погода</a></li>
+      <li><a href="https://rasp.yandex.ru" class="footer__menu-link" target="_blank">Расписание</a></li>
+      <li><a href="https://calendar.yandex.ru" class="footer__menu-link" target="_blank">Календарь</a></li>
+      <li><a href="https://travel.yandex.ru" class="footer__menu-link" target="_blank">Путешествия</a></li>
+    </ul>
+    <p class="footer__copyright">&copy; 2023. Шахноза Рахимова</p>
+  </footer>
 </body>
