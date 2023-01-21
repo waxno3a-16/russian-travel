@@ -13,4 +13,4 @@
 
 **GitHub**
 
-* [Ссылка на проект в GitHub](https://github.com/waxno3a-16/russian-travel.git)
+* [Ссылка на проект на GitHub Pages](https://waxno3a-16.github.io/russian-travel/)
