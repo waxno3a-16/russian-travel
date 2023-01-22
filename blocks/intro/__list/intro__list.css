@@ -8,4 +8,14 @@
   padding-bottom: 92px;
 }
 
+@media (max-width: 768px) {
+  .intro__list {
+    padding-bottom: 88px;
+  }
+}
 
+@media (max-width: 552px) {
+  .intro__list {
+    padding-bottom: 64px;
+  }
+}

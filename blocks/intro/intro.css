@@ -8,17 +8,16 @@
   .intro {
     padding-top: 88px;
     margin: 0 48px;
-  } 
+  }
 }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .intro {
-    padding-top: 64px;
     margin: 0 24px;
   }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 552px) {
   .intro {
     padding-top: 64px;
     margin: 0 16px;
