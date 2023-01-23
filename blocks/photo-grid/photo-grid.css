@@ -14,14 +14,14 @@
   }
 }
 
- @media (max-width: 768px) {
+ @media (max-width: 900px) {
   .photo-grid {
     margin: 0 24px;
     padding-bottom: 88px;
   }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 600px) {
   .photo-grid {
     margin: 0 16px;
     padding-bottom: 64px;

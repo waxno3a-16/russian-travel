@@ -20,13 +20,11 @@
 @media (max-width: 768px) {
   .cover {
     min-height: 480px;
-    margin-top: 18px;
   }
 }
 
 @media (max-width: 425px) {
   .cover {
     min-height: 200px;
-    margin-top: 16px;
   }
 }

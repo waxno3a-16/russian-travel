@@ -9,6 +9,7 @@
 
 @media (max-width: 425px) {
   .footer__menu-link {
+    font-size: 24px;
     line-height: 2;
   }
 }

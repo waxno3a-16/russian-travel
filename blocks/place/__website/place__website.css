@@ -3,7 +3,7 @@
   padding-bottom: 48px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .place__website {
     margin: 0 16px;
     padding-bottom: 32px;

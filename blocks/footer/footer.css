@@ -5,20 +5,22 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1215px) {
   .footer {
     margin: 92px 48px 24px;
   }
 }
-  
-@media (max-width: 768px) {
+
+@media (max-width: 900px) {
   .footer {
     margin: 88px 24px 24px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .footer {
     display: block;
+    margin: 64px 16px 24px;
+    max-width: 195px;
   }
 }

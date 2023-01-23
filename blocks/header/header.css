@@ -14,13 +14,13 @@
   }
 }
 
- @media (max-width: 768px) {
+ @media (max-width: 900px) {
   .header {
     margin: 0 24px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .header {
     margin: 0 16px;
     padding-top: 16px;

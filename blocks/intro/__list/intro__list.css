@@ -8,13 +8,13 @@
   padding-bottom: 92px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .intro__list {
     padding-bottom: 88px;
   }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 600px) {
   .intro__list {
     padding-bottom: 64px;
   }

@@ -4,20 +4,20 @@
   padding-top: 92px;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1024px) {
   .intro {
     padding-top: 88px;
     margin: 0 48px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .intro {
     margin: 0 24px;
   }
 }
 
-@media (max-width: 552px) {
+@media (max-width: 600px) {
   .intro {
     padding-top: 64px;
     margin: 0 16px;

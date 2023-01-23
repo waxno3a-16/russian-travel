@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   .footer__menu {
     display: block;
     margin-bottom: 48px;
