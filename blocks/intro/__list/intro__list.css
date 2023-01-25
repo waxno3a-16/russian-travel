@@ -5,17 +5,4 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
-  padding-bottom: 92px;
-}
-
-@media (max-width: 900px) {
-  .intro__list {
-    padding-bottom: 88px;
-  }
-}
-
-@media (max-width: 600px) {
-  .intro__list {
-    padding-bottom: 64px;
-  }
 }
